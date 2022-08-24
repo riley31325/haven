@@ -47,7 +47,6 @@ window.addEventListener('load', () => {
   omnibox.addEventListener('keyup', async event => {
     if (event.key === 'Enter')
       go();
-    /*
     else {
       // Search suggestions
 
@@ -75,6 +74,5 @@ window.addEventListener('load', () => {
         box.appendChild(line);
       }
     }
-    */
   });
 });
